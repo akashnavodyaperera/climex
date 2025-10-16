@@ -1,5 +1,18 @@
 import tkinter as tk
 from tkinter import messagebox
+import requests
+from datetime import datetime
+
+
+
+
+
+class ClimexWeatherApp:
+    def __init__(self,root):
+        self.root = root
+        self.root.title("ClimexWeatherApp")
+        self.root.geometry("2000x600")
+        self.root.resizable(False,False)
 
 # Window setup
 root = tk.Tk()
