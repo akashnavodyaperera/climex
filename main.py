@@ -10,7 +10,7 @@ class ClimexWeatherApp:
         self.root.geometry("500x600")
         self.root.resizable(False, False)
         
-        # Your API key - REPLACE WITH YOUR ACTUAL KEY
+        # API key
         self.API_KEY = "e6aa859e1350f9925cdcc0099e2a2668"
         self.BASE_URL = "http://api.openweathermap.org/data/2.5/weather"
         
@@ -84,10 +84,10 @@ class ClimexWeatherApp:
             messagebox.showwarning("Input Error", "Please enter a city name!")
             return
         
-        if self.API_KEY == "YOUR_API_KEY_HERE":
+        if self.API_KEY == "e6aa859e1350f9925cdcc0099e2a2668":
             messagebox.showerror(
                 "API Key Error",
-                "Please replace 'YOUR_API_KEY_HERE' with your actual OpenWeatherMap API key!"
+                "Please replace 'e6aa859e1350f9925cdcc0099e2a2668' with your actual OpenWeatherMap API key!"
             )
             return
         
