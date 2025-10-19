@@ -68,14 +68,7 @@ Windows: dist\Climex.exe
 macOS: dist/Climex.app
 Linux: dist/Climex
 
-Project Structure
-climex/
-├── main.py              # Main application file
-├── requirements.txt     # Python dependencies
-├── README.md           # Project documentation
-└── .gitignore          # Git ignore rules
-API Information
-This application uses the OpenWeatherMap Current Weather Data API.
+  
 Free tier limits:
 
 1,000 API calls per day
